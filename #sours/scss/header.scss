@@ -1,0 +1,94 @@
+.header {
+   &__row {
+   }
+   &__logo {
+      img {
+         width: 100px;
+         height: 100px;
+      }
+   }
+   &__burger {
+      display: none;
+   }
+   &__menu {
+   }
+   &__list {
+   }
+   &__link {
+      color: rgb(71, 155, 134);
+   }
+   //                                                           !Meдиа запрос для бургера
+   // 	@media (max-width: 767px){
+   // ///////////////////////////////////////////////////////!НАЧАЛО-БУРГЕР//////////////////////////////
+   // 		&__burger {
+   // 			display: block;
+   // 			position: relative;
+   // 			top: 15px;
+   // 			left: 50%;
+   // 			width: 45px;
+   // 			height: 30px;
+   // 			margin: 0px 0px 0px -35px;
+   // 			z-index: 6;
+   // 			transition: all 0.4s ease 0s;
+   // 			&:hover{
+   // 				transform: scale(1.1);
+   // 				transition: all 0.4s ease 0s;
+   // 			}
+   // 			span{
+   // 				content: '';
+   // 				background-color: #fff;
+   // 				position: absolute;
+   // 				width: 100%;
+   // 				height: 2px;
+   // 				left: 0;
+   // 				top:	14px;
+   // 				transition: all 0.4s ease 0s;
+   // 				z-index: 4;
+   // 			}
+   // 			&:before,&:after{
+   // 				content: '';
+   // 				background-color: #fff;
+   // 				position: absolute;
+   // 				width: 100%;
+   // 				height: 2px;
+   // 				left: 0;
+   // 				transition: all 0.4s ease 0s;
+   // 			}
+   // 			&:before{
+   // 				top: 0;
+   // 			}
+   // 			&:after{
+   // 				bottom: 0;
+   // 			}
+   // 			&.active span{
+   // 				transform: scale(0);
+   // 				transition: all 0.2s ease 0s;
+   // 			}
+   // 			&.active:before{
+   // 				transform: rotate(45deg);
+   // 				transition: all 0.2s ease 0s;
+   // 				top: 13.5px;
+   // 			}
+   // 			&.active:after{
+   // 				transform: rotate(-45deg);
+   // 				transition: all 0.2s ease 0s;
+   // 				bottom: 13.5px;
+   // 			}
+   // 		}
+   // ///////////////////////////////////////////////////////КОНЕЦ-БУРГЕР//////////////////////////////
+   // 		&__menu {
+   // 			overflow: auto;
+   // 			position: fixed;
+   // 			top: -100%;
+   // 			left: 0;
+   // 			width: 100%;
+   // 			height: 100%;
+   // 			background-color: rgb(35%, 53%, 66%, 1);
+   // 			padding: 150px 0 0 0;
+   // 			transition: all 0.4s ease 0s;
+   // 			&.active{
+   // 				top: 0;
+   // 			}
+   // 		}
+   // 	}
+}
